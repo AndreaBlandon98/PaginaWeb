@@ -1,0 +1,173 @@
+
+a {
+    color: #f5f1f1; 
+    text-decoration: none; 
+}
+
+
+a:hover {
+    color: #e8ecf0; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;  
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d0303;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+h1, h2, h3 {
+    color: #f8f3f3;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+
+a {
+    color: #f2eeee;  
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #007bff;  
+}
+
+body {
+    font-family: 'Arial', sans-serif;   
+    color: #6e6767;                       
+    line-height: 1.6;                   
+    margin: 0;                          
+    padding: 0;                        
+    background-color: #0b0b0b;         
+}
+
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;  
+    color: #f1e9e9;                    
+    text-align: center;             
+}
+
+p {
+    font-size: 16px;                 
+    margin: 15px 0;                  
+    text-align: justify;             
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    width: 200px; 
+    border-radius: 8px;
+}
+
+
+#multimedia {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.audio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+
+.video-content {
+    max-width: 100%;
+    width: 600px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.audio-content {
+    width: 300px;
+    outline: none;
+}
+
+
+.video-container p {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;   
+    padding: 0;              
+    display: flex;           
+    justify-content: center; 
+    gap: 20px;               
+}
+
+nav a {
+    text-decoration: none;   
+    color: #f5ebeb;            
+    font-size: 18px;         
+    display: flex;           
+    align-items: center;     
+}
+
+nav a i {
+    margin-right: 8px;       
+    font-size: 22px;         
+}
+
+nav a:hover {
+    color: #007bff;          
+}
+
+
+footer {
+    background-color: #2d0303;   
+    color: white;             
+    padding: 20px 0;          
+    text-align: center;       
+}
+
+footer p {
+    margin: 10px 0;           
+    font-size: 18px;          
+}
+
+
+.social-icons a {
+    color: white;             
+    font-size: 30px;          
+    margin: 0 15px;           
+    text-decoration: none;    
+}
+
+.social-icons a:hover {
+    color: #007bff;           
+}
